@@ -7,4 +7,6 @@
  
  效果图： https://github.com/sheng-zhong/my-model-zoo/tree/master/results/transfer
  
+ 训练代码：https://github.com/sheng-zhong/my-model-zoo/blob/master/transfer_learning.ipynb
+ 
  模型地址： https://pan.baidu.com/s/1xv5oBjhcBAHpchuaEXtTdg   提取码：hz8h
