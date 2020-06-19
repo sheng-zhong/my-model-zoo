@@ -25,9 +25,11 @@
 基本信息：算法基于YOLOV4，我更改了其yolo图层和卷积图层以及输出层、输入层、由于数据是自己收集标注的，所以数量较少。因此在图像增强上添加了一些原本不在官方内容中的方法，数据来源为自己标注，已经开源。
 
 效果图：https://github.com/sheng-zhong/my-model-zoo/blob/master/results/darknet/predictions.jpg
-https://pan.baidu.com/s/1anBA-X3L9QtgWHkvRk9qEQ
+
 训练过程的损失：[https://github.com/sheng-zhong/my-model-zoo/blob/master/results/darknet/chart_yolov4-voc-banner.png]
-模型地址：https://pan.baidu.com/s/1anBA-X3L9QtgWHkvRk9qEQ
+
+模型地址：https://pan.baidu.com/s/1anBA-X3L9QtgWHkvRk9qEQ    提取码：
+
 数据地址：
 
 
