@@ -10,3 +10,5 @@
  训练代码：https://github.com/sheng-zhong/my-model-zoo/blob/master/transfer_learning.ipynb
  
  模型地址： https://pan.baidu.com/s/1xv5oBjhcBAHpchuaEXtTdg   提取码：hz8h
+ 
+ 数据地址： https://pan.baidu.com/s/11tRJYjLFzfetT7OEXig33w    提取码：2pt9
