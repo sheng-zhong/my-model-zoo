@@ -44,6 +44,13 @@ Nvidia的开源模型：https://pan.baidu.com/s/1bmgAbiNTe4HNokN_Ak41OA      提
 
 数据地址：https://pan.baidu.com/s/1N4pB9b0d_0n9TYobbMxNOQ      提取码：00l8
 
+第0到3个epoch生成器的变化：
+![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/face.png)
+
+生成器模型最终可以生成的图像：
+![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/face.png)
+
+nvidia预训练模型最终生成的人脸：
 ![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/face.png)
 
 
