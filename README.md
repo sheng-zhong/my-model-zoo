@@ -34,17 +34,15 @@
 模型三：使用对抗生成网络（GANs）去生成逼真的人脸数据
 
 
-基本信息：使用人脸数据训练生成器和检测器，由于算力要求太高，数据量也比较有限（3000张左右的人脸数据），所以自己自己训练的权重产生的人脸效果并不好，训练过程可以看到生成的人脸回越来越清晰（不过还是很古怪的人脸），输入输出图像的分辨率为 96 * 96。再清晰点就很难等了...使用Nvidia的预训练权重可以生成非常清晰，并且一般人分辨不了真伪的人脸图像，这些人脸是不存在的或者说是没有版权的。可以应用再一些UI设计上。
+基本信息：使用人脸数据训练生成器和检测器，由于算力要求太高，数据量也比较有限（3000张左右的人脸数据），所以自己自己训练的权重产生的人脸效果并不好，训练过程可以看到生成的人脸回越来越清晰（不过还是很古怪的人脸），输入输出图像的分辨率为 96 * 96。再清晰点就很难等了...使用Nvidia的预训练权重可以生成非常清晰，并且一般人分辨不了真伪的人脸图像，这些人脸是不存在的或者说是没有版权的。可以应用再一些UI设计上。数据来源为Kaggle。
 
 训练过程代码：https://github.com/sheng-zhong/my-model-zoo/blob/master/GANs.ipynb
 
-训练过程生成器所生成的人脸变化：
+自己训练的模型：https://pan.baidu.com/s/1bmgAbiNTe4HNokN_Ak41OA      提取码：ghrp
 
-模型地址：自己训练的：https://pan.baidu.com/s/1bmgAbiNTe4HNokN_Ak41OA      提取码：ghrp
-
-          Nvidia的开源模型：https://pan.baidu.com/s/1bmgAbiNTe4HNokN_Ak41OA      提取码：ghrp
+Nvidia的开源模型：https://pan.baidu.com/s/1bmgAbiNTe4HNokN_Ak41OA      提取码：ghrp
 
 数据地址：https://pan.baidu.com/s/1N4pB9b0d_0n9TYobbMxNOQ      提取码：00l8
 
-![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/darknet/predictions.jpg)
+![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/first_generated.jpg)
 
