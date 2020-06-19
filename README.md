@@ -9,8 +9,6 @@
 
  基本信息：使用MobileNet预训练权重，训练最后20层，并在最后两层添加全连接层（因为数据量较小，添加两个Dense层可以学习到更细致的图像信息）并使用softmax函数激活，使用Adam算法做梯度优化，用交叉熵函数计算损失。输入图像尺寸为（224 * 224）经典尺寸。训练数据来源为Kaggle。
  
- 效果图： https://github.com/sheng-zhong/my-model-zoo/blob/master/results/transfer/result.png
- 
  训练代码：https://github.com/sheng-zhong/my-model-zoo/blob/master/transfer_learning.ipynb
  
  模型地址： https://pan.baidu.com/s/1xv5oBjhcBAHpchuaEXtTdg   提取码：hz8h
@@ -28,10 +26,11 @@
 
 训练过程的损失：[https://github.com/sheng-zhong/my-model-zoo/blob/master/results/darknet/chart_yolov4-voc-banner.png]
 
-模型地址：https://pan.baidu.com/s/1anBA-X3L9QtgWHkvRk9qEQ    提取码：
+模型地址：https://pan.baidu.com/s/1anBA-X3L9QtgWHkvRk9qEQ    提取码：nb73
 
-数据地址：
+数据地址：https://pan.baidu.com/s/1cMt4DGvNUvmkIVuaCMs0ww    提取码：vgzr
 
+![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/darknet/predictions.jpg)
 
 
 模型三：使用对抗生成网络（GANs）去生成逼真的人脸数据
