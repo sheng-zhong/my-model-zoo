@@ -45,7 +45,9 @@
 训练过程生成器所生成的人脸变化：
 
 模型地址：
+
 自己训练的：https://pan.baidu.com/s/1bmgAbiNTe4HNokN_Ak41OA      提取码：ghrp
+
 Nvidia的开源模型：https://pan.baidu.com/s/1bmgAbiNTe4HNokN_Ak41OA      提取码：ghrp
 
 数据地址：https://pan.baidu.com/s/1N4pB9b0d_0n9TYobbMxNOQ      提取码：00l8
