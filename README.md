@@ -44,5 +44,5 @@ Nvidia的开源模型：https://pan.baidu.com/s/1bmgAbiNTe4HNokN_Ak41OA      提
 
 数据地址：https://pan.baidu.com/s/1N4pB9b0d_0n9TYobbMxNOQ      提取码：00l8
 
-![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/first_generated.jpg)
+![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/face.png)
 
