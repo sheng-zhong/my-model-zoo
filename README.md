@@ -28,6 +28,10 @@
 
 数据地址：https://pan.baidu.com/s/1cMt4DGvNUvmkIVuaCMs0ww    提取码：vgzr
 
+训练过程：
+
+![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/darknet/chart_yolov4-voc-banner.png)
+
 ![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/darknet/predictions.jpg)
 
 
