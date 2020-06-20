@@ -51,7 +51,7 @@ Nvidia的开源模型：https://pan.baidu.com/s/1bmgAbiNTe4HNokN_Ak41OA      提
 ![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/final_generator.jpg)
 
 nvidia预训练模型最终生成的人脸：
-![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/face.png)
+![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/nvidia-pre-genetated.jpg)
 
 
 模型四：用DQN（强化学习+深度学习）的Q-table算法让AI学会玩游戏。
