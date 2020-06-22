@@ -17,8 +17,8 @@
 
 ![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/transfer/result.png)
 
-模型二：基于darknet的检测模型，看见楼下业主维权，训练了个用于检测横幅（banner）在图像中的位置的模型。
 
+# 模型二：基于darknet的检测模型，看见楼下业主维权，训练了个用于检测横幅（banner）在图像中的位置的模型。
 
 基本信息：算法基于YOLOV4，我更改了其yolo图层和卷积图层以及输出层、输入层、由于数据是自己收集标注的，所以数量较少。因此在图像增强上添加了一些原本不在官方内容中的方法，数据来源为自己标注，已经开源。
 
@@ -35,7 +35,7 @@
 ![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/darknet/predictions.jpg)
 
 
-模型三：使用对抗生成网络（GANs）去生成逼真的人脸数据
+# 模型三：使用对抗生成网络（GANs）去生成逼真的人脸数据
 
 
 基本信息：使用人脸数据训练生成器和检测器，由于算力要求太高，数据量也比较有限（3000张左右的人脸数据），所以自己自己训练的权重产生的人脸效果并不好，训练过程可以看到生成的人脸回越来越清晰（不过还是很古怪的人脸），输入输出图像的分辨率为 96 * 96。再清晰点就很难等了...使用Nvidia的预训练权重可以生成非常清晰，并且一般人分辨不了真伪的人脸图像，这些人脸是不存在的或者说是没有版权的。可以应用再一些UI设计上。数据来源为Kaggle。
@@ -58,7 +58,7 @@ nvidia预训练模型最终生成的人脸：
 ![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/nvidia-pre-genetated.jpg)
 
 
-模型四：使用tensorflow构建基于DNN的步态序列识别模型
+# 模型四：使用tensorflow构建基于DNN的步态序列识别模型
 
 基本信息：
 该算法使用行人的原始RGB视频帧作为输入，生成一维向量作为步态描述（不同行人之间的步态描述是线性可分的）。网络由两个神经网络组成
@@ -76,7 +76,7 @@ nvidia预训练模型最终生成的人脸：
 训练过程：
 
 
-模型五：使用GaitSet的神经网络做视频行人重识
+# 模型五：使用GaitSet的神经网络做视频行人重识
 
 基本信息：
 使用名为GaitSet的神经网络去提取图像序列中的身份信息先通过卷积网络提取每帧轮廓特征，“行走”作为周期性运动，步态可以由一个周期表示。这里将步态特征视为一组步态轮廓图。 首先，CNN用于独立地从每个轮廓中提取帧级特征。 其次，名为Set Pooling的操作用于将帧级特征聚合成独立序列级特征。之后使用原始轮廓卷积生成包含时序关系的高级特征，最后使用称为水平金字塔映射（Horizontal Pyramid Mapping，HPM）的结构将序列级特征映射到更具辨别力的空间以获得最终的步态特征。
@@ -92,7 +92,7 @@ nvidia预训练模型最终生成的人脸：
     算法来源：引用论文   https://www.aaai.org/ojs/index.php/AAAI/article/view/4821
 
 
-模型六：用DQN（强化学习+深度学习）的Q-table算法让AI学会玩游戏。
+# 模型六：用DQN（强化学习+深度学习）的Q-table算法让AI学会玩游戏。
 
 基本信息：
 
