@@ -58,7 +58,7 @@ nvidia预训练模型最终生成的人脸：
 ![image](https://github.com/sheng-zhong/my-model-zoo/blob/master/results/gans/nvidia-pre-genetated.jpg)
 
 
-模型五：使用tensorflow构建基于DNN的步态序列识别模型。
+模型四：使用tensorflow构建基于DNN的步态序列识别模型。
 
 基本信息：
 该算法使用行人的原始RGB视频帧作为输入，生成一维向量作为步态描述（不同行人之间的步态描述是线性可分的）。网络由两个神经网络组成
@@ -76,7 +76,23 @@ nvidia预训练模型最终生成的人脸：
 训练过程：
 
 
-模型四：用DQN（强化学习+深度学习）的Q-table算法让AI学会玩游戏。
+模型五：
+
+基本信息：
+使用名为GaitSet的神经网络去提取图像序列中的身份信息先通过卷积网络提取每帧轮廓特征，“行走”作为周期性运动，步态可以由一个周期表示。这里将步态特征视为一组步态轮廓图。 首先，CNN用于独立地从每个轮廓中提取帧级特征。 其次，名为Set Pooling的操作用于将帧级特征聚合成独立序列级特征。之后使用原始轮廓卷积生成包含时序关系的高级特征，最后使用称为水平金字塔映射（Horizontal Pyramid Mapping，HPM）的结构将序列级特征映射到更具辨别力的空间以获得最终的步态特征。
+
+训练过程代码：
+
+模型地址：
+
+数据地址：
+
+训练过程：
+
+    算法来源：引用论文   https://www.aaai.org/ojs/index.php/AAAI/article/view/4821
+
+
+模型六：用DQN（强化学习+深度学习）的Q-table算法让AI学会玩游戏。
 
 基本信息：
 
